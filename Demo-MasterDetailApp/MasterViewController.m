@@ -24,6 +24,8 @@
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    
+   self.objects = [self loadObjectsFromFile:@"ceo" ofType:@"plist"];
 }
 
 
@@ -99,5 +101,19 @@
     }
 }
 
-
+#pragma mark - Methods
+- (NSMutableArray *)loadObjectsFromFile:(NSString *)filename ofType:(NSString *)type
+{
+    NSMutableArray *objects = [[NSMutableArray alloc] init];
+    
+    NSString *filepath = [[NSBundle mainBundle] pathForResource:filename ofType:type];
+    NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:filepath];
+    
+    for (NSString *key in dict)
+    {
+        [objects addObject:key];
+    }
+    
+    return objects;
+}
 @end
