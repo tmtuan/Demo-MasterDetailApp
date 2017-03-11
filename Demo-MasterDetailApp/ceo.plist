@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>Steve Jobs</key>
-	<string></string>
+	<string>steve_jobs.jpg</string>
 	<key>Mark Zuckerberg</key>
-	<string></string>
+	<string>mark_zuckerberg.jpg</string>
 	<key>Jack Ma</key>
-	<string></string>
+	<string>jack_ma.jpg</string>
 	<key>Bill Gates</key>
-	<string></string>
+	<string>bill_gates.jpg</string>
 	<key>Warren Buffet</key>
-	<string></string>
+	<string>warren_buffett.jpg</string>
 </dict>
 </plist>

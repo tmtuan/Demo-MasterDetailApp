@@ -12,9 +12,12 @@
 @interface MasterViewController ()
 
 @property NSMutableArray *objects;
+
+
 @end
 
 @implementation MasterViewController
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -57,6 +60,7 @@
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         NSDate *object = self.objects[indexPath.row];
+                                   
         DetailViewController *controller = (DetailViewController *)[[segue destinationViewController] topViewController];
         [controller setDetailItem:object];
         controller.navigationItem.leftBarButtonItem = self.splitViewController.displayModeButtonItem;
@@ -107,7 +111,7 @@
     NSMutableArray *objects = [[NSMutableArray alloc] init];
     
     NSString *filepath = [[NSBundle mainBundle] pathForResource:filename ofType:type];
-    NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:filepath];
+    dict = [[NSDictionary alloc] initWithContentsOfFile:filepath];
     
     for (NSString *key in dict)
     {

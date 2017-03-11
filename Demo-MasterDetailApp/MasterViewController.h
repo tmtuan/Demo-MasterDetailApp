@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+NSDictionary *dict;
+
 @class DetailViewController;
 
 @interface MasterViewController : UITableViewController

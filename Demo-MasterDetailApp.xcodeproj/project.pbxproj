@@ -15,6 +15,11 @@
 		62C8CE121E7228DA002C235A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C8CE111E7228DA002C235A /* Assets.xcassets */; };
 		62C8CE151E7228DA002C235A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62C8CE131E7228DA002C235A /* LaunchScreen.storyboard */; };
 		62C8CE1D1E722E0D002C235A /* ceo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62C8CE1C1E722E0D002C235A /* ceo.plist */; };
+		62C8CE231E737BD7002C235A /* bill_gates.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62C8CE1E1E737BD7002C235A /* bill_gates.jpg */; };
+		62C8CE241E737BD7002C235A /* jack_ma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62C8CE1F1E737BD7002C235A /* jack_ma.jpg */; };
+		62C8CE251E737BD7002C235A /* mark_zuckerberg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62C8CE201E737BD7002C235A /* mark_zuckerberg.jpg */; };
+		62C8CE261E737BD7002C235A /* steve_jobs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62C8CE211E737BD7002C235A /* steve_jobs.jpg */; };
+		62C8CE291E7383B4002C235A /* warren_buffett.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62C8CE281E7383B4002C235A /* warren_buffett.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +36,11 @@
 		62C8CE141E7228DA002C235A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62C8CE161E7228DA002C235A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62C8CE1C1E722E0D002C235A /* ceo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ceo.plist; sourceTree = "<group>"; };
+		62C8CE1E1E737BD7002C235A /* bill_gates.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bill_gates.jpg; path = ../../../../../Pictures/CEO/bill_gates.jpg; sourceTree = "<group>"; };
+		62C8CE1F1E737BD7002C235A /* jack_ma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jack_ma.jpg; path = ../../../../../Pictures/CEO/jack_ma.jpg; sourceTree = "<group>"; };
+		62C8CE201E737BD7002C235A /* mark_zuckerberg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mark_zuckerberg.jpg; path = ../../../../../Pictures/CEO/mark_zuckerberg.jpg; sourceTree = "<group>"; };
+		62C8CE211E737BD7002C235A /* steve_jobs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = steve_jobs.jpg; path = ../../../../../Pictures/CEO/steve_jobs.jpg; sourceTree = "<group>"; };
+		62C8CE281E7383B4002C235A /* warren_buffett.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = warren_buffett.jpg; path = ../../../../../Pictures/CEO/warren_buffett.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,11 @@
 		62C8CE021E7228DA002C235A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				62C8CE281E7383B4002C235A /* warren_buffett.jpg */,
+				62C8CE1E1E737BD7002C235A /* bill_gates.jpg */,
+				62C8CE1F1E737BD7002C235A /* jack_ma.jpg */,
+				62C8CE201E737BD7002C235A /* mark_zuckerberg.jpg */,
+				62C8CE211E737BD7002C235A /* steve_jobs.jpg */,
 				62C8CE031E7228DA002C235A /* main.m */,
 				62C8CE1C1E722E0D002C235A /* ceo.plist */,
 			);
@@ -147,8 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				62C8CE151E7228DA002C235A /* LaunchScreen.storyboard in Resources */,
+				62C8CE261E737BD7002C235A /* steve_jobs.jpg in Resources */,
 				62C8CE121E7228DA002C235A /* Assets.xcassets in Resources */,
+				62C8CE291E7383B4002C235A /* warren_buffett.jpg in Resources */,
+				62C8CE241E737BD7002C235A /* jack_ma.jpg in Resources */,
 				62C8CE1D1E722E0D002C235A /* ceo.plist in Resources */,
+				62C8CE251E737BD7002C235A /* mark_zuckerberg.jpg in Resources */,
+				62C8CE231E737BD7002C235A /* bill_gates.jpg in Resources */,
 				62C8CE101E7228DA002C235A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
