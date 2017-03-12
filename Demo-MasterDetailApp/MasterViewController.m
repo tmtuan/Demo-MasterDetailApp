@@ -105,6 +105,10 @@
     }
 }
 
+- (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath  {
+    NSLog(@"Detail Disclosure");
+}
+
 #pragma mark - Methods
 - (NSMutableArray *)loadObjectsFromFile:(NSString *)filename ofType:(NSString *)type
 {
