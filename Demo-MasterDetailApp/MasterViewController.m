@@ -8,6 +8,7 @@
 
 #import "MasterViewController.h"
 #import "DetailViewController.h"
+#import "WebViewController.h"
 
 @interface MasterViewController ()
 
@@ -107,6 +108,15 @@
 
 - (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath  {
     NSLog(@"Detail Disclosure");
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    WebViewController *webViewController = [storyboard instantiateViewControllerWithIdentifier:@"WebViewController"];
+    
+    webViewController.title = self.objects[indexPath.row];
+    
+    // push new view controller onto the stack  
+    [self.navigationController pushViewController:webViewController animated:YES];
+    
 }
 
 #pragma mark - Methods

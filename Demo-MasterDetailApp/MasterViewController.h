@@ -11,11 +11,12 @@
 NSDictionary *dict;
 
 @class DetailViewController;
+@class WebViewController;
 
 @interface MasterViewController : UITableViewController
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
-
+//@property (strong, nonatomic) WebViewController *webViewController;
 
 @end
 
