@@ -34,8 +34,11 @@
     [super viewWillAppear:animated];
     self.navigationItem.title = self.title;
     
+    // Change "Steve Jobs" to "Steve_Jobs"
+    NSString *str = [self.title stringByReplacingOccurrencesOfString:@" " withString:@"_"];
+    
     //request web page
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"https://www.google.com.vn"]]]];
+    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"https://en.wikipedia.org/wiki/%@", str]]]];
 }
 
 /*
