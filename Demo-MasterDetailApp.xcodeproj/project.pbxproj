@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6235F2C61E74DA00007F8C1B /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6235F2C51E74DA00007F8C1B /* WebViewController.m */; };
+		626634CC1E77835D00A2A8FB /* Ceo.m in Sources */ = {isa = PBXBuildFile; fileRef = 626634CB1E77835D00A2A8FB /* Ceo.m */; };
 		62C8CE041E7228DA002C235A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C8CE031E7228DA002C235A /* main.m */; };
 		62C8CE071E7228DA002C235A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C8CE061E7228DA002C235A /* AppDelegate.m */; };
 		62C8CE0A1E7228DA002C235A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C8CE091E7228DA002C235A /* MasterViewController.m */; };
@@ -26,6 +27,8 @@
 /* Begin PBXFileReference section */
 		6235F2C41E74DA00007F8C1B /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		6235F2C51E74DA00007F8C1B /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		626634CA1E77835D00A2A8FB /* Ceo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ceo.h; sourceTree = "<group>"; };
+		626634CB1E77835D00A2A8FB /* Ceo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ceo.m; sourceTree = "<group>"; };
 		62C8CDFF1E7228DA002C235A /* Demo-MasterDetailApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo-MasterDetailApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C8CE031E7228DA002C235A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		62C8CE051E7228DA002C235A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +87,8 @@
 				62C8CE0C1E7228DA002C235A /* DetailViewController.m */,
 				6235F2C41E74DA00007F8C1B /* WebViewController.h */,
 				6235F2C51E74DA00007F8C1B /* WebViewController.m */,
+				626634CA1E77835D00A2A8FB /* Ceo.h */,
+				626634CB1E77835D00A2A8FB /* Ceo.m */,
 				62C8CE0E1E7228DA002C235A /* Main.storyboard */,
 				62C8CE111E7228DA002C235A /* Assets.xcassets */,
 				62C8CE131E7228DA002C235A /* LaunchScreen.storyboard */,
@@ -188,6 +193,7 @@
 				62C8CE071E7228DA002C235A /* AppDelegate.m in Sources */,
 				6235F2C61E74DA00007F8C1B /* WebViewController.m in Sources */,
 				62C8CE0A1E7228DA002C235A /* MasterViewController.m in Sources */,
+				626634CC1E77835D00A2A8FB /* Ceo.m in Sources */,
 				62C8CE041E7228DA002C235A /* main.m in Sources */,
 				62C8CE0D1E7228DA002C235A /* DetailViewController.m in Sources */,
 			);
