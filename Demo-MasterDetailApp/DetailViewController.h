@@ -17,5 +17,7 @@ extern NSDictionary *dict;
 
 @property (weak, nonatomic) IBOutlet UIImageView *portraitImage;
 
+
+
 @end
 

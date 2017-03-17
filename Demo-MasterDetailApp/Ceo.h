@@ -13,4 +13,6 @@
 @property (nonatomic, readwrite, copy) NSString *name;
 @property (nonatomic, readwrite) UIImage *image;
 
+- (id)initWithName:(NSString *)name;
+
 @end

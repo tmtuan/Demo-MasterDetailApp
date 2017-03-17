@@ -13,4 +13,14 @@
 @synthesize name = _name;
 @synthesize image = _image;
 
+- (id)initWithName:(NSString *)name
+{
+    if (self == [super init])
+    {
+        self.name = [name copy];
+    }
+    
+    return self;
+}
+
 @end
